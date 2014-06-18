@@ -1,5 +1,5 @@
 {
-   "abstract" : "Blah blah blah",
+   "abstract" : "Shorthand way of ssh'ing to AWS EC2 servers",
    "author" : [
       "Dominic Humphries <dominic@oneandoneis2.com>"
    ],
@@ -46,6 +46,20 @@
       }
    },
    "release_status" : "stable",
-   "version" : "0.01"
+   "resources" : {
+      "bugtracker" : {
+         "web" : "https://github.com/oneandoneis2/App-Goto-Amazon/issues"
+      },
+      "homepage" : "https://github.com/oneandoneis2/App-Goto-Amazon",
+      "repository" : {
+         "type" : "git",
+         "url" : "https://github.com/oneandoneis2/App-Goto-Amazon.git",
+         "web" : "https://github.com/oneandoneis2/App-Goto-Amazon"
+      }
+   },
+   "version" : "0.01",
+   "x_contributors" : [
+      "Dominic Humphries <dominich@broadbean.com>"
+   ]
 }
 

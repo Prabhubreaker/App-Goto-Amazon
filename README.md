@@ -1,6 +1,6 @@
 # NAME
 
-App::Goto::Amazon - Blah blah blah
+App::Goto::Amazon - Shorthand way of ssh'ing to AWS EC2 servers
 
 # SYNOPSIS
 
@@ -8,7 +8,11 @@ App::Goto::Amazon - Blah blah blah
 
 # DESCRIPTION
 
-App::Goto::Amazon is
+App::Goto::Amazon is called by the included 'ssa' script. If no arguments are supplied,
+ssa will simply print a list of running EC2 instances. If arguments are supplied, then
+the script will look for an instance whose name matches all supplied arguments (in order)
+and, if it finds one, will ssh to it. If the arguments are ambiguous, the first match will
+be used
 
 # AUTHOR
 
