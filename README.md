@@ -14,6 +14,8 @@ the script will look for an instance whose name matches all supplied arguments (
 and, if it finds one, will ssh to it. If the arguments are ambiguous, the first match will
 be used
 
+Requires your Amazon keys in a ~/.ssa file - see ssa.example file for template
+
 # AUTHOR
 
 Dominic Humphries <dominic@oneandoneis2.com>
